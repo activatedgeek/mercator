@@ -1,0 +1,21 @@
+---
+import Html from "@components/Html.astro";
+import Map from "@components/maps/places";
+import data from "@data/phil.json";
+
+const frontmatter = {
+  title: "Somebody Fed Phil",
+  description: "Map of all places on Netflix Series Somebody Feed Phil.",
+  authors: [{ collection: "authors", id: "sk" }],
+  date: new Date(),
+};
+---
+
+<Html frontmatter={frontmatter}>
+  <Map
+    client:only="react"
+    mapboxAccessToken={import.meta.env.MAPBOX_ACCESS_TOKEN}
+    places={data}
+    zoom={2}
+  />
+</Html>

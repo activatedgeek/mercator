@@ -1,0 +1,32 @@
+{
+  "name": "mercator",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "pretty": "prettier --write .",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^9.2.1",
+    "@astrojs/react": "^3.3.0",
+    "@astrojs/sitemap": "^3.1.2",
+    "@picocss/pico": "^2.0.6",
+    "@types/react": "^18.2.78",
+    "@types/react-dom": "^18.2.25",
+    "astro": "^4.6.1",
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^6.1.2",
+    "mapbox-gl": "^3.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^7.1.7"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "prettier-plugin-astro": "^0.13.0"
+  }
+}

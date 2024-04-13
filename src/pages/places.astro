@@ -1,0 +1,20 @@
+---
+import Html from "@components/Html.astro";
+import Map from "@components/maps/places";
+import data from "@data/places.json";
+
+const frontmatter = {
+  title: "Places",
+  description: "Map of all places I've visited.",
+  authors: [{ collection: "authors", id: "sk" }],
+  date: new Date(),
+};
+---
+
+<Html frontmatter={frontmatter}>
+  <Map
+    client:only="react"
+    mapboxAccessToken={import.meta.env.MAPBOX_ACCESS_TOKEN}
+    places={data}
+  />
+</Html>

@@ -1,0 +1,13 @@
+---
+import Html from "@components/Html.astro";
+
+const frontmatter = {
+  title: "Search",
+  authors: [{ collection: "authors", id: "sk" }],
+  date: new Date(),
+};
+---
+
+<Html frontmatter={frontmatter}>
+  <h1>Astro</h1>
+</Html>

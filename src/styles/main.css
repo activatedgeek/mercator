@@ -1,0 +1,23 @@
+@import "@picocss/pico/css/pico.classless.min.css";
+
+@import "mapbox-gl/dist/mapbox-gl.css";
+
+body {
+  margin: 0;
+}
+
+div.mapboxgl-ctrl > button {
+  margin: 0;
+}
+
+div.mapboxgl-popup-content {
+  padding: calc(0.5 * var(--pico-spacing));
+  opacity: 0.8;
+
+  > button.mapboxgl-popup-close-button {
+    margin: 0;
+    padding: 0;
+    color: var(--pico-color-grey-600);
+    font-size: calc(0.75 * var(--pico-font-size));
+  }
+}

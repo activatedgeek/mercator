@@ -1,0 +1,37 @@
+---
+import Html from "@components/Html.astro";
+import Heatmap from "@components/maps/heatmap";
+import wineData from "@data/wine.json";
+
+const data = {
+  type: "FeatureCollection",
+  features: wineData.map(
+    ({
+      Winery: winery_name,
+      Name: name,
+      Vintage: vintage,
+      Winery_Lat: latitude,
+      Winery_Long: longitude,
+    }) => ({
+      type: "Feature",
+      properties: { winery_name, name, vintage },
+      geometry: { type: "Point", coordinates: [longitude, latitude, 0.0] },
+    }),
+  ),
+};
+
+const frontmatter = {
+  title: "Wine",
+  description: "Map of all wineries I've sampled from.",
+  authors: [{ collection: "authors", id: "sk" }],
+  date: new Date(),
+};
+---
+
+<Html frontmatter={frontmatter}>
+  <Heatmap
+    client:only="react"
+    mapboxAccessToken={import.meta.env.MAPBOX_ACCESS_TOKEN}
+    data={data}
+  />
+</Html>

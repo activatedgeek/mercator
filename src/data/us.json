@@ -1,0 +1,66 @@
+[
+  { "place": "Misi", "latitude": 40.7134, "longitude": -73.96721 },
+  { "place": "Nami Nori", "latitude": 40.71917, "longitude": -73.9529 },
+  { "place": "ARIARI", "latitude": 40.72727, "longitude": -73.98585 },
+  { "place": "Tous Les Jours", "latitude": 40.74796, "longitude": -73.987 },
+  { "place": "Claud", "latitude": 40.73078, "longitude": -73.98975 },
+  { "place": "Tacombi", "latitude": 40.74785, "longitude": -73.94174 },
+  { "place": "12 Chairs Cafe", "latitude": 40.72751, "longitude": -74.00226 },
+  { "place": "Attaboy", "latitude": 40.71887, "longitude": -73.99134 },
+  { "place": "Bar Belly", "latitude": 40.71513, "longitude": -73.99145 },
+  { "place": "Catch", "latitude": 40.74021, "longitude": -74.00625 },
+  { "place": "Rubirosa", "latitude": 40.72275, "longitude": -73.99619 },
+  { "place": "DOC Wine Bar", "latitude": 40.71973, "longitude": -73.9604 },
+  { "place": "Lilia", "latitude": 40.71756, "longitude": -73.95236 },
+  { "place": "Win Son Bakery", "latitude": 40.70722, "longitude": -73.94291 },
+  { "place": "Win Son", "latitude": 40.70745, "longitude": -73.94349 },
+  { "place": "uluh", "latitude": 40.72935, "longitude": -73.98667 },
+  { "place": "Sushionmenyc", "latitude": 40.74638, "longitude": -73.8939 },
+  { "place": "Chinese Tuxedo", "latitude": 40.71429, "longitude": -73.99808 },
+  { "place": "Amorino Gelato", "latitude": 40.73298, "longitude": -73.99398 },
+  { "place": "Soothr", "latitude": 40.73226, "longitude": -73.98736 },
+  { "place": "Spicy Moon", "latitude": 40.72664, "longitude": -73.9873 },
+  { "place": "Poco", "latitude": 40.72248, "longitude": -73.98289 },
+  { "place": "Osteria 57", "latitude": 40.73467, "longitude": -73.99786 },
+  { "place": "Bar Pitti", "latitude": 40.7291, "longitude": -74.0022 },
+  { "place": "Buvette", "latitude": 40.73259, "longitude": -74.0043 },
+  { "place": "Vic's", "latitude": 40.72683, "longitude": -73.99328 },
+  {
+    "place": "Dominique Ansel Bakery",
+    "latitude": 40.72522,
+    "longitude": -74.00291
+  },
+  { "place": "Oscar Wilde", "latitude": 40.74524, "longitude": -73.98996 },
+  { "place": "Veniero's", "latitude": 40.72947, "longitude": -73.98447 },
+  { "place": "Sauced", "latitude": 40.71259, "longitude": -73.96218 },
+  { "place": "Jing Li", "latitude": 40.74825, "longitude": -73.94012 },
+  { "place": "Dun Huang", "latitude": 40.74682, "longitude": -73.94255 },
+  { "place": "Kyuramen", "latitude": 40.74923, "longitude": -73.93999 },
+  { "place": "American Brass", "latitude": 40.74377, "longitude": -73.95842 },
+  {
+    "place": "Joe's Home of Soup Dumplings",
+    "latitude": 40.7571,
+    "longitude": -73.97714
+  },
+  {
+    "place": "NYC Pizza Kitchen",
+    "latitude": 40.74198,
+    "longitude": -73.98118
+  },
+  { "place": "Sundays Well", "latitude": 40.74103, "longitude": -73.98198 },
+  { "place": "The Tippler", "latitude": 40.74222, "longitude": -74.006 },
+  {
+    "place": "Sunday in Brooklyn",
+    "latitude": 40.71425,
+    "longitude": -73.96552
+  },
+  { "place": "Brass Monkey", "latitude": 40.74076, "longitude": -74.00844 },
+  { "place": "Hyderabadi Zaiqa", "latitude": 40.76434, "longitude": -73.98766 },
+  { "place": "Barcelona Bar", "latitude": 40.76534, "longitude": -73.98414 },
+  {
+    "place": "NY Bakery and Dessert",
+    "latitude": 40.75964,
+    "longitude": -73.98474
+  },
+  { "place": "Tanner Smith's", "latitude": 40.76428, "longitude": -73.98172 }
+]
