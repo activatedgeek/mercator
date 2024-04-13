@@ -15,7 +15,7 @@ npm install
 ### Environment Variables
 
 - `ASTRO_SITE`: Full base domain, e.g. `sanyamkapoor.com`
-- `MAPBOX_ACCESS_TOKEN`: [Mapbox](http://mapbox.com) access token.
+- `PUBLIC_MAPBOX_ACCESS_TOKEN`: [Mapbox](http://mapbox.com) access token.
 
 Optional:
 

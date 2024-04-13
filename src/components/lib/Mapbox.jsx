@@ -12,7 +12,7 @@ import Pin from "./Pin";
 
 export default function Mapbox({
   children,
-  mapboxAccessToken,
+  token,
   mapStyle = "mapbox://styles/mapbox/streets-v12",
   latitude = 40.72833,
   longitude = -73.99417,
@@ -21,7 +21,7 @@ export default function Mapbox({
 }) {
   return (
     <Map
-      mapboxAccessToken={mapboxAccessToken}
+      mapboxAccessToken={token}
       initialViewState={{
         latitude: latitude,
         longitude: longitude,

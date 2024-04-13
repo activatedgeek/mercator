@@ -8,6 +8,7 @@ on:
 env:
   ASTRO_SITE: ${{ vars.ASTRO_SITE }}
   GOATCOUNTER_SITE: ${{ vars.GOATCOUNTER_SITE }}
+  PUBLIC_MAPBOX_ACCESS_TOKEN: ${{ secrets.MAPBOX_ACCESS_TOKEN }}
   ## Node related.
   DISABLE_OPENCOLLECTIVE: 1
   ADBLOCK: 1
@@ -18,13 +19,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Checkout beagle
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ github.actor }}/${{ secrets.PAGES_REPO }}
-          token: ${{ secrets.GH_PAT }}
-          path: ${{ secrets.PAGES_REPO }}
 
       - name: Setup Node
         uses: actions/setup-node@v4

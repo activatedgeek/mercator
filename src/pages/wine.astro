@@ -31,7 +31,7 @@ const frontmatter = {
 <Html frontmatter={frontmatter}>
   <Heatmap
     client:only="react"
-    mapboxAccessToken={import.meta.env.MAPBOX_ACCESS_TOKEN}
+    token={import.meta.env.PUBLIC_MAPBOX_ACCESS_TOKEN}
     data={data}
   />
 </Html>
